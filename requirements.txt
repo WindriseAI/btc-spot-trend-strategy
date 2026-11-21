@@ -1,0 +1,5 @@
+# Needed only for paper/live trading (report mode runs on the standard library alone)
+ccxt>=4.4,<5
+# Needed only for the backtest charts and the tests
+matplotlib>=3.8
+pytest>=8
